@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/09086c6a6c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 649px)" href="../css/portraitStyle.css" />
+    <link rel="stylesheet" type="text/css" media = "screen and (min-device-width: 650px)" href="../css/style.css">
+    <title>Contact Me Page</title>
+
+
+</head>
+<body style = "max-height: 80vh; overflow-x: hidden;">
+    <script>
+        window.onload = function() {
+            // Reset the form fields when the page loads
+            document.getElementById("form").reset();
+        };
+    </script>
+    <nav>
+        <a href = "../index.html"><p class = "logo">&lt;/Aju1&gt;</p></a>
+        <table style = "border:none">
+            <tbody>
+                <tr style = "border:none">
+                    <td class = "NavBar" style = "border:none"><a href = '../index.html'>{Home};</a></td>
+                    <td class = "NavBar" style = "border:none"><a href = '../branch pages/projects.html'> {Projects}; </a></td>
+                    <td class = "NavBar" style = "border:none"><a href = 'resume.html'> {Resume}; </a></td>
+                    <td class = "NavBar" style = "border:none"><a href = '../branch pages/contactMe.html'> {Contact Me}; </a></td>
+                </tr>
+            </tbody>
+        </table>
+    </nav>
+    <div class = "ContactContainer">
+        <div class = "ContactLeft">
+            <div class = "ContactPageTitle">
+                <p>Contact Me</p>
+            </div>
+            <div class = "ContactImg">
+                <img src="../img/output-onlinegiftools-ezgif.com-crop.gif" alt="" style="height: 50vh;">
+            </div>
+            <div style = "font-size: 2.5vw;text-align: center; padding-inline: 5vw; margin-top: 3.5vh;">
+                <a href = "https://www.instagram.com/woahhhh.aj.1?igsh=MXFuNGFwcXc2c2xwdw==
+                " target = "_blank"><i id = "Instagram" class="fa-brands fa-square-instagram" style="color: #000000;"></i></a>
+                <a href = "https://www.linkedin.com/in/anjolaajuwon/" target="_blank"><i id = "LinkedIn" class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
+                <a href = "https://github.com/Benjorbious" target="_blank"><i id = "Github" class="fa-brands fa-square-github" style="color: #000000;"></i></a>            
+            </div>
+        </div>
+        <div class = "ContactRight">
+            <div class = "ContactBackground">
+                <form action="https://api.web3forms.com/submit" method="POST" id = "form" class = "ContactForm">
+                    <input type="hidden" name="apikey" value="9b1cbd68-078e-4241-83ed-10d5088580d8">
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    <p class = "ContactOpeningHeaders">.Name {</p>
+                        <div class = "Form-Group">
+                            <label for="Full Name" class = "ContactTitles">Name: </label>
+                            <input type = "text" name = "Full Name" class = "ContactInput">
+                        </div>
+                    <p class = "ContactClosingHeaders">}</p>
+
+                    <p class = "ContactOpeningHeaders">.Email {</p>
+                        <div class = "Form-Group">
+                            <label for="Email" class = "ContactTitles">Email: </label>
+                            <input type = "email" name = "Email" class = "ContactInput">
+                        </div>
+                    <p class = "ContactClosingHeaders">}</p>
+
+                    <input type="hidden" name="subject" value="New Submission from Web3Forms">
+
+                    <p class = "ContactOpeningHeaders">.Message {</p>
+                        <div class = "Form-Group">
+                            <label for="message" class = "ContactTitles">Message: </label>
+                            <textarea class = "ContactInput" id = "message" name="Message" required></textarea>
+                        </div>
+                    <p class = "LastClosingHeader">}</p>
+
+                    <div class = "SubmitContainer">
+                        <button type="submit" class = "ContactSubmit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class = "SocialMediaIcons">
+            <a href = "https://www.instagram.com/woahhhh.aj.1?igsh=MXFuNGFwcXc2c2xwdw==
+            " target = "_blank"><i id = "InstagramPortrait" class="fa-brands fa-square-instagram" style="color: #000000;"></i></a>
+            <a href = "https://www.linkedin.com/in/anjolaajuwon/" target="_blank"><i id = "LinkedInPortrait" class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
+            <a href = "https://github.com/Benjorbious" target="_blank"><i id = "GithubPortrait" class="fa-brands fa-square-github" style="color: #000000;"></i></a>            
+        </div>
+    </div>
+</body>
+</html>
