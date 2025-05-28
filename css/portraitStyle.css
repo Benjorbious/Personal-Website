@@ -354,3 +354,45 @@ u {
     border-top: none;
     border-bottom: none;
 }
+
+.ThankYouContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.ThankYou {
+    display: inline-block;
+    text-align: center;
+}
+
+.ThankYouText1 {
+    margin-top: 0;
+    font-size: 2vw;
+    margin-bottom: 0;
+}
+
+.ThankYouText2 {
+    margin-top: 2vh;
+    font-size: 1.1vw;
+}
+
+.ReturnToContact {
+    margin-top: 2.5vh;
+    font-size: 1vw;
+    border-radius: 5px;
+}
+
+.ReturnToContact:hover {
+    cursor: pointer;
+}
+
+.ThankYouASCII {
+    font-size: 1.25vw;
+}
+
+.ThankYouBody {
+    overflow: hidden;
+}

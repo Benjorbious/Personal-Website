@@ -387,3 +387,11 @@ u {
 .ReturnToContact:hover {
     cursor: pointer;
 }
+
+.ThankYouASCII {
+    font-size: 1.25vw;
+}
+
+.ThankYouBody {
+    overflow: hidden;
+}
