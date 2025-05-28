@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    background-color: black;
+    font-family: "JetBrains Mono", monospace;
+    max-width: 100vw;
+    max-height: auto;
+    color: white;
+}
+
+nav {
+    margin-top: 0;
+    z-index: 999;
+}
+
+.logo {
+    display: inline-block;
+    padding-top: 1vh;
+    font-size: 2vw;
+}
+
+a {
+    color: white;
+    text-decoration:none;
+}
+a:hover {
+    animation: blinker .75s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        color: #0FFF50;
+    }
+}
+
+a:active {
+    color: black;
+}
+
+table {
+    float:right;
+}
+
+.NavBar {
+    font-size: 3vw;
+    padding-left: 2vw;
+    padding-top: 1.5vh;
+}
+
+.container {
+    display:block;
+    margin-top: 1.5vh;
+    min-width: 100vw;
+}
+
+.left {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50vw;
+    
+}
+
+#ProfileImage {
+    width: 100vw;
+    height: auto;
+}
+
+.right {
+    margin: auto;
+    width: 75vw;
+    text-align: center;
+}
+
+.MainText {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+#occupation {
+    font-size: 3vmin;
+    margin-bottom: 0;
+}
+
+#introduction {
+    margin-top: 3vh;
+    font-size: 9.7vw;
+    margin-bottom: 0;
+}
+
+#name {
+    margin-top: 0;
+    font-size: 9vw;
+    margin-bottom: 0%;
+}
+
+#summary {
+    margin-top: 3vh;
+    font-size: 2.25vw;
+}
+
+.BelowText {
+    margin-top: 3vh;
+    font-size: 3vw;
+    padding-inline: 3vmin;
+    padding-top: 1vmin;
+    margin-right: 3vmin;
+    padding-bottom: 1vmin;
+    /* border: none; */
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+.BelowText:hover {
+    animation: blinker .75s linear infinite;
+    cursor: pointer;
+}
+
+.ResumeSheet {
+    margin-top: 3vh;
+    padding-bottom: 3vh;
+    margin-inline: auto;
+    width: 87vw;
+    background-color: white;
+    padding-inline: 2.5vw;
+    border-radius: 25px;
+    border: 3px solid black;
+    outline: 1px solid white;
+}
+
+.FirstLine {
+    position: relative;
+    margin-top: 3vh;
+}
+
+#ResumeName {
+    color: black;
+    background-color: white;
+    font-size: 10vw;
+    margin-bottom: 0;
+}
+
+#Role {
+    color: black;
+    background-color: white;
+    margin-top: 1vmin;
+    font-size: 3vw;
+}
+
+#objective {
+    color: black;
+    background-color: white;
+    margin-top: 1.5vmin;
+    padding-left: 5vmin;
+    font-size: 2.25vw;
+}
+
+.OpeningHeader {
+    color: black;
+    background-color: white;
+    margin-top: 2vh;
+    margin-bottom: 0;
+    font-size: 3.25vw;
+}
+
+.ClosingHeader {
+    color: black;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3.25vw;
+}
+
+.NormalResumeText {
+    color: black;
+    background-color: white;
+    margin-top: 0;
+    padding-left: 5vmin;
+    font-size: 2.25vw;
+}
+
+.NormalResumeText1 {
+    color: black;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 5vmin;
+    font-size: 2.5vw;
+}
+
+.super {
+    font-size: 2.25vw; 
+    color:black; 
+    background-color: white;
+}
+
+u {
+    color: black;
+    background-color: white;
+    animation: blinker 5s linear infinite;
+}
+
+.ProjectList {
+    margin-top: 0;
+    color: black;
+    background-color: white;
+    margin-bottom: 0;
+}
+
+.ProjectBullets {
+    background-color: white;
+    color:black;
+    margin-left: 3vw;
+    padding-left: .5vw;
+    font-size: 2.25vw;
+}
+
+.ContactPageTitle {
+    width: 100vw;
+    text-align: center; 
+    font-size: 12.5vw;
+}
+
+.ContactForm {
+    display: inline-block;
+    margin-inline: auto;
+    width: 70vw;
+}
+
+.ContactBackground {
+    border: 2px solid white;
+    border-radius: 15px;
+    padding-inline: 5vw;
+    padding-top: .75vh;
+    padding-bottom: 3vh;
+    margin-top: 0;
+}
+
+.ContactContainer {
+    background-color: transparent;
+    position: absolute;
+    display:block;
+    height: 87vh;
+    min-width: 100vw;
+    top: 2.5vh;
+    z-index: -999;
+}
+
+.ContactLeft {
+    width: 100vw;
+    height: 11vh;
+}
+
+.ContactRight {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.ContactImg {
+    background-color: transparent;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 48.5vh;
+    width: 50vw;
+}
+
+.ContactInput {
+    float: right;    
+    border-radius: 5px;
+    width: 43.5vw;
+    height: 2.25vh;
+}
+
+.ContactOpeningHeaders {
+    font-size: 4vw;
+}
+
+.ContactClosingHeaders {
+    font-size: 4vw;
+    margin-top: 3vh;
+}
+
+.LastClosingHeader {
+    font-size: 4vw;
+    margin-top: 13vh;
+}
+
+#message {
+    height: 12.5vh;
+    margin-left: 1vw;
+    resize: none;
+    overflow: auto;
+}
+
+.ContactSubmit {
+    font-size: 4vw;
+    border-radius: 5px;
+}
+
+.ContactTitles {
+    margin-left: 10vw;
+    font-size: 1.25vh;
+}
+
+.SubmitContainer {
+    display: block;
+    text-align: center;
+}
+
+.SocialMediaIcons {
+    font-size: 7.5vw;
+    text-align: center; 
+    padding-inline: 5vw; 
+    margin-top: 3.5vh;
+}
+
+#Instagram {
+    display: none;
+}
+
+#Github {
+    display: none;
+}
+
+#LinkedIn {
+    display: none;
+}
+
+#InstagramPortrait {
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    border-top: none;
+    border-bottom: none;
+}
+
+#GithubPortrait {
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    border-top: none;
+    border-bottom: none;
+}
+
+#LinkedInPortrait {
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    border-top: none;
+    border-bottom: none;
+}
